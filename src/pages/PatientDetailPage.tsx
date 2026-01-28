@@ -154,18 +154,6 @@ export function PatientDetailPage() {
               </p>
             </div>
           </Card>}
-
-        <div className="grid grid-cols-2 gap-3">
-          <Button variant="primary" onClick={() => navigate(`/score/hacor/${patient.id}`)} className="min-h-[80px] flex flex-col items-center justify-center">
-            <span className="text-2xl font-bold">HACOR</span>
-            <span className="text-sm opacity-90">Calcular Score</span>
-          </Button>
-          <Button variant="primary" onClick={() => navigate(`/score/rox/${patient.id}`)} className="min-h-[80px] flex flex-col items-center justify-center">
-            <span className="text-2xl font-bold">ROX</span>
-            <span className="text-sm opacity-90">Calcular Score</span>
-          </Button>
-        </div>
-
         <div>
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             Historial de Scores
